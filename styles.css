@@ -1,0 +1,123 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+html{
+    background-color: rgb(121, 199, 239);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+button{
+    color:rgb(255, 255, 255);
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: rgb(121, 199, 239);
+    color: black;
+    height: 100%;
+}
+
+header{
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+.black-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:10 px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+footer{
+    background-color: cornsilk;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    
+}
+
+main{
+    text-align: center;
+    height: calc(100% - 200px);
+}
+* {
+    box-sizing: border-box;
+  }
+label {
+  display: block;
+  margin-top: 15px;
+}
+#output {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+#thankYou {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+  form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(0, 255, 221);
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #222;
+  }
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
